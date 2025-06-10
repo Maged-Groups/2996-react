@@ -12,3 +12,15 @@ git status
 
 # commit changes
 git commit -m "My message"
+
+# undo changes made to a file
+git restore <file>
+
+# undo changes made to all files
+git restore .
+
+# show commit history
+git log
+
+# show commit history in a nice format
+git log --oneline --graph --decorate --all
