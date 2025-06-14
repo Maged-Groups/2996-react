@@ -28,3 +28,16 @@ git log
 
 # show commit history in a nice format
 git log --oneline --graph --decorate --all
+
+
+# Link local repository to remote repository
+- git remote add origin <remote-repository-url>
+
+# Push changes to remote repository
+- git push -u origin main
+
+# Pull changes from remote repository
+git pull origin master
+
+# Check the remote repository URL
+git remote get-url origin
