@@ -1,3 +1,7 @@
+# add yourself as an author
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
 # Initialize a git repository
 git init
 
